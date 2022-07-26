@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>salon_ekleme</class>
+ <widget class="QDialog" name="salon_ekleme">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>494</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Salon Ekle</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="salon_ekleme_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-left:35px;
+font-weight:bold;
+font-size:21px;
+color:white;
+</string>
+   </property>
+   <property name="text">
+    <string>Salon Ekleme Paneli</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="salon_adi_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Salon Adı:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="salon_adi_text">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ana_menu_buton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>207</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;font-size:15px;color:red;font-weight:bold;font-style:italic;</string>
+   </property>
+   <property name="text">
+    <string>Ana Menü</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/menu.png</normaloff>:/newPrefix/images/menu.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cikis_buton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>211</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;font-size:15px;color:red;font-weight:bold;font-style:italic;</string>
+   </property>
+   <property name="text">
+    <string>Çıkış</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/exit.png</normaloff>:/newPrefix/images/exit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="salon_ekle_buton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>431</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white; 
+color:red;
+font-size:15px;font-style:italic;font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>Salon Ekle</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/save.png</normaloff>:/newPrefix/images/save.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

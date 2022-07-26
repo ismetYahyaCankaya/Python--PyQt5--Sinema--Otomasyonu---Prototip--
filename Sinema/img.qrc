@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>images/exit.png</file>
+    <file>images/menu.png</file>
+    <file>images/save.png</file>
+    <file>images/ticket2.png</file>
+    <file>images/ticket.png</file>
+    <file>images/ekle.png</file>
+    <file>images/ekle2.png</file>
+    <file>images/ekle3.png</file>
+    <file>images/sinema.png</file>
+  </qresource>
+</RCC>

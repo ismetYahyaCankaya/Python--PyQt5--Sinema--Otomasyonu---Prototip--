@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>seans_saat_label</class>
+ <widget class="QDialog" name="seans_saat_label">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Seans Ekle</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:black;</string>
+  </property>
+  <widget class="QLabel" name="seans_adi_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Seans Adı:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seans_ekle_buton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>421</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white; 
+color:red;
+font-size:15px;font-style:italic;font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>Seans Ekle</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/save.png</normaloff>:/newPrefix/images/save.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seans_ekleme_paneli">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding-left:35px;
+font-weight:bold;
+font-size:21px;
+color:white;
+</string>
+   </property>
+   <property name="text">
+    <string>Seans Ekleme Paneli</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ana_menu_buton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>207</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;font-size:15px;color:red;font-weight:bold;font-style:italic;</string>
+   </property>
+   <property name="text">
+    <string>Ana Menü</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/menu.png</normaloff>:/newPrefix/images/menu.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cikis_buton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>330</y>
+     <width>211</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;font-size:15px;color:red;font-weight:bold;font-style:italic;</string>
+   </property>
+   <property name="text">
+    <string>Çıkış</string>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/newPrefix/images/exit.png</normaloff>:/newPrefix/images/exit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="seans_adi_text">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="seans_tarih_edit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="date">
+    <date>
+     <year>2022</year>
+     <month>5</month>
+     <day>6</day>
+    </date>
+   </property>
+   <property name="currentSection">
+    <enum>QDateTimeEdit::DaySection</enum>
+   </property>
+   <property name="displayFormat">
+    <string>d.MM.yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seans_tarih_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Tarih:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seans_saat_label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Saati:</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="seans_saat_edit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="displayFormat">
+    <string>HH:mm:ss</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="salon_sec_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>Salon: </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="salon_bagla_combo_box">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>230</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255,255,255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
